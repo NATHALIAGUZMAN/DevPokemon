@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     max-width: 1280px;
     margin: 0 auto;
-    background-image: linear-gradient(to bottom, #5e5b5bad, #d8220dad);
+    background-image: linear-gradient(to bottom, #c3beba, #e80d0de8);
     color: #333333;
 }
 
@@ -45,7 +45,7 @@ main{
 }
 
 .cartao-pokemon{
-    background-color: #d8e3ec;
+    background-color: #cacfd3;
     width: 200px;
     padding: 15px;/*Espaçamento na borda da escrita do cartão*/
     display: flex;
@@ -63,7 +63,11 @@ main .cartao-pokemon:hover{
 }
 
 .modo-escuro .cartao-pokemon{
-    background-color: #a8a8a8;
+     background-color: #818080;
+}
+
+.modo-escuro{
+    background-image: linear-gradient(to bottom, #080403, #e80d0de8);
 }
 
 main .cartao-pokemon .informacoes{
