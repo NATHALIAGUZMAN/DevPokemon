@@ -67,7 +67,7 @@ main .cartao-pokemon:hover{
 }
 
 .modo-escuro{
-    background-image: linear-gradient(to bottom, #080403, #e80d0de8);
+    background-image: linear-gradient(to bottom, #070606, #e80d0de8);
 }
 
 main .cartao-pokemon .informacoes{
