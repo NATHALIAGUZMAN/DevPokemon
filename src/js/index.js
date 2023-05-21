@@ -15,17 +15,18 @@ botaoAlterarTema.addEventListener("click", () => {
 
     //passo 6: verificar se o modo escuro esta ativo:
     const modoEscuroEstaAtivo = body.classList.contains("modo-escuro");
+    body.classList.toggle("modo-escuro")
 
     if (modoEscuroEstaAtivo) {
         //passo 7: remover classe modo-escuro do body
-        body.classList.remove("modo-escuro");
+        //body.classList.remove("modo-escuro"); o toggle ja tem isso
         //passo 8: voltar a imagem do sol
         imagemBotaoTrocaDeTema.setAttribute("src", "./src/imagens/sun.png")
     } else {
         //console.log("clicou no botao") //pra ver se ta funcionando, clicar no botao e ver se aparece a frase no console(inspecionar)
 
         // passo 4: adicionar a classe modo-escuro no body
-        body.classList.add("modo-escuro");
+        //body.classList.add("modo-escuro");o toggle ja tem isso
 
         //passo 5: trocar o sol pela lua - cria a consta imagembotaotrocatema. o ponto é devido haver uma classe pra imagem
         imagemBotaoTrocaDeTema.setAttribute("src", "./src/imagens/moon.png")
